@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery with Upload</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Photo Gallery</h1>
+    <input type="text" id="searchInput" placeholder="Search by tags...">
+    <button id="uploadBtn">Add New Image</button>
+    <input type="file" id="imageUpload" accept="image/*" style="display: none;" multiple>
+  </header>
+
+  <main>
+    <div class="gallery" id="gallery">
+        <div class="photo" data-tags="CSS">
+            <img src="photos/css.jpeg" alt="CSS">
+            <p class="tags">CSS</p>
+          </div>
+          <div class="photo" data-tags="Blog-Blue">
+            <img src="photos/blob.png" alt="Blog-Blue">
+            <p class="tags">Blog-Blue</p>
+          </div>
+          <div class="photo" data-tags="Car-Image">
+            <img src="photos/carimage.jpeg" alt="Car-Image">
+            <p class="tags">Car-Image</p>
+          </div>
+          <div class="photo" data-tags="Circle-Image">
+            <img src="photos/circle.png" alt="Circle-Image">
+            <p class="tags">Circle-Image</p>
+          </div>
+        <div class="photo" data-tags="Cube-Image">
+            <img src="photos/cube.png" alt="Cube-Image">
+            <p class="tags">Cube-Image</p>
+          </div>
+          <div class="photo" data-tags="Dots-Image">
+            <img src="photos/dots.png" alt="Dots-Image">
+            <p class="tags">Dots-Image</p>
+          </div>
+          <div class="photo" data-tags="Kanha-Image">
+            <img src="photos/download.jpeg" alt="Kanha-Image">
+            <p class="tags">Kanha-Image</p>
+          </div>
+          <div class="photo" data-tags="Express-Image">
+            <img src="photos/express.jpeg" alt="Express-Image">
+            <p class="tags">Express-Image</p>
+          </div>
+          <div class="photo" data-tags="Gith-Image">
+            <img src="photos/gith.png" alt="Gith-Image">
+            <p class="tags">Gith-Image</p>
+          </div>
+          <div class="photo" data-tags="HTML-Image">
+            <img src="photos/html.jpeg" alt="HTML-Image">
+            <p class="tags">HTML-Image</p>
+          </div>
+          <div class="photo" data-tags="Cupset-Image">
+            <img src="photos/images.jpeg" alt="Cupset-Image">
+            <p class="tags">Cupset-Image</p>
+          </div>
+          <div class="photo" data-tags="Venue-Image">
+            <img src="photos/venu4.jpeg" alt="Venue-Image">
+            <p class="tags">Venue-Image</p>
+          </div>
+          <div class="photo" data-tags="Second Venue-Image">
+            <img src="photos/venue1.jpg" alt="Second Venue-Image">
+            <p class="tags">Second Venue-Image</p>
+          </div>
+          <div class="photo" data-tags="Third Venue-Image">
+            <img src="photos/venue2.jpeg" alt="Third Venue-Image">
+            <p class="tags">Third Venue-Image</p>
+          </div>
+          <div class="photo" data-tags="Fourth Venue-Image">
+            <img src="photos/venue3.jpeg" alt="Fourth Venue-Image">
+            <p class="tags">Fourth Venue-Image</p>
+          </div>
+          <div class="photo" data-tags="Fifth Venue-Image">
+            <img src="photos/venu4.jpeg" alt="Fifth Venue-Image">
+            <p class="tags">Fifth Venue-Image</p>
+          </div>
+          <div class="photo" data-tags="Sixth Venue-Image">
+            <img src="photos/venue5.jpeg" alt="Sixth Venue-Image">
+            <p class="tags">Sixth Venue-Image</p>
+          </div>
+
+
+
+
+    </div>
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <span class="close" id="lightboxClose">&times;</span>
+    <img id="lightboxImage" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
